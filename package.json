@@ -1,0 +1,38 @@
+{
+<<<<<<< HEAD
+  "name": "Paytm",
+=======
+  "name": "week-18",
+>>>>>>> db15ecb (till p2p)
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+<<<<<<< HEAD
+    "prettier": "^3.2.5",
+    "turbo": "^2.1.0",
+    "typescript": "^5.4.5"
+=======
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "prettier": "^3.2.5",
+    "turbo": "latest"
+>>>>>>> db15ecb (till p2p)
+  },
+  "engines": {
+    "node": ">=18"
+  },
+<<<<<<< HEAD
+  "packageManager": "npm@10.8.2",
+=======
+  "packageManager": "npm@10.2.4",
+>>>>>>> db15ecb (till p2p)
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
